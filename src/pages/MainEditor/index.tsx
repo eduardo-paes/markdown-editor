@@ -17,7 +17,7 @@ import {
   StyledToggleButtonGroup,
 } from "../../components";
 
-const Home: React.FC = () => {
+const MainEditor: React.FC = () => {
   const [markdown, setMarkdown] = useState<string>("");
   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
   const undoStackRef = useRef<string[]>([]);
@@ -238,4 +238,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default MainEditor;
